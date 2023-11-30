@@ -39,8 +39,8 @@ def view_data():
 
 
 def delete_data():
-    confirmation = input("Вы уверены, что хотите удалить все сохраненные данные? (y/n): ")
-    if confirmation.lower() == "y":
+    confirmation = input("Вы уверены, что хотите удалить все сохраненные данные? (1/2): ")
+    if confirmation.lower() == "1":
         save_data([])
         print("Все сохраненные данные удалены.")
     else:
